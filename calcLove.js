@@ -1,11 +1,11 @@
 const calcBtn = document.getElementById('calcBtn')
 calcBtn.addEventListener('click', ()=>{
 	const userName = document.getElementById('username').value
-	const patnerName = document.getElementById('partnername').value
+	const partnerName = document.getElementById('partnername').value
 	const calcfun = Math.random()*100
 	const loveResult = Math.round(calcfun)
 
-	if (userName === '' || patnerName == '') {
+	if (userName === '' || partnerName == '') {
 		alert("Name can't be empty")
 	}else {
 		if (loveResult <= 25 && loveResult >= 0) {
