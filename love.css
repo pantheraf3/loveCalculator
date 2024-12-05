@@ -11,7 +11,7 @@ section{
 	height: 100vh;
 }
 .first-page{
-	background-image: url('Beautiful Body Art By Tattoo Artist Sion Kwak (30 Pics).jpg');
+	background-image: url(Beautiful Body Art By Tattoo Artist Sion Kwak (30 Pics).jpg);
 	color: #fff;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -73,7 +73,7 @@ section{
 
 /* Calculate Love */
 .calcLove{
- 	background-image: linear-gradient(rgba(231, 171, 171, 0.329), rgba(236, 125, 125, 0.048)),url('Beautiful Body Art By Tattoo Artist Sion Kwak (30 Pics).jpg');
+ 	background-image: linear-gradient(rgba(231, 171, 171, 0.329), rgba(236, 125, 125, 0.048)),url(Beautiful Body Art By Tattoo Artist Sion Kwak (30 Pics).jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
