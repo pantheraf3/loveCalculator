@@ -21,7 +21,7 @@ calcBtn.addEventListener('click', ()=>{
 			document.getElementById('result').innerText =
 			`This love is fire! You two are meant to be, like a Naija jollof rice and fried plantains combo! (${loveResult}%)`
 		}
+			document.getElementById('username').value= ''
+			document.getElementById('partnername').value = ''
 	}
-	document.getElementById('username')= ''
-	document.getElementById('partnername') = ''
 })
