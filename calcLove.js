@@ -22,6 +22,6 @@ calcBtn.addEventListener('click', ()=>{
 			`This love is fire! You two are meant to be, like a Naija jollof rice and fried plantains combo! (${loveResult}%)`
 		}
 	}
-	userName = ''
-	patnerName = ''
+	document.getElementById('username')= ''
+	document.getElementById('partnername') = ''
 })
