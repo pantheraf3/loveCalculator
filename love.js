@@ -1,5 +1,3 @@
-
-
 const calcBtn = document.getElementById('calcBtn')
 calcBtn.addEventListener('click', ()=>{
 	const userName = document.getElementById('username').value
