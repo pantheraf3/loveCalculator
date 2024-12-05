@@ -1,7 +1,7 @@
 const calcBtn = document.getElementById('calcBtn')
 calcBtn.addEventListener('click', ()=>{
-	const userName = document.getElementById('username').value
-	const partnerName = document.getElementById('partnername').value
+	let userName = document.getElementById('username').value
+	let partnerName = document.getElementById('partnername').value
 	const calcfun = Math.random()*100
 	const loveResult = Math.round(calcfun)
 
@@ -22,4 +22,6 @@ calcBtn.addEventListener('click', ()=>{
 			`This love is fire! You two are meant to be, like a Naija jollof rice and fried plantains combo! (${loveResult}%)`
 		}
 	}
+	userName = ''
+	patnerName = ''
 })
